@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: DM Sans;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(27, 66%, 92%);
+  padding: 15px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 400px;
+}
+.main-container .container-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: hsl(10, 79%, 65%);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.main-container .container-1 .content-1 {
+  color: white;
+}
+.main-container .container-2 {
+  background-color: white;
+  padding: 15px;
+}
+
+.main-container .container-2 h1 {
+  color: hsl(25, 47%, 15%);
+}
+.main-container .container-2 .stats-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.main-container .container-2 .stats-container .stats {
+  width: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.main-container .container-2 .stats-container .mon .stats-box {
+  height: 100px;
+  width: 100%;
+  background-color: hsl(10, 79%, 65%);
+}
+
+.main-container .container-2 .stats-container .tue .stats-box {
+  height: 150px;
+  width: 100%;
+  background-color: hsl(10, 79%, 65%);
+}
+.main-container .container-2 .stats-container .wed .stats-box {
+  height: 150px;
+  width: 100%;
+  background-color: hsl(10, 79%, 65%);
+}
+.main-container .container-2 .stats-container .thur .stats-box {
+  height: 150px;
+  width: 100%;
+  background-color: hsl(10, 79%, 65%);
+}
+.main-container .container-2 .stats-container .fri .stats-box {
+  height: 150px;
+  width: 100%;
+  background-color: hsl(10, 79%, 65%);
+}
+.main-container .container-2 .stats-container .sat .stats-box {
+  height: 150px;
+  width: 100%;
+  background-color: hsl(10, 79%, 65%);
+}
+.main-container .container-2 .stats-container .sun .stats-box {
+  height: 150px;
+  width: 100%;
+  background-color: hsl(10, 79%, 65%);
+  background-color: aqua;
+  /* color: red; */
+}
